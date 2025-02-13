@@ -1,25 +1,25 @@
 Below are the steps to run bank account(kafka producer) and log service(Kafka consumer)      
 1.Bank Account service:  
-  Steps to set up and build docker image:	
-  1.1 git clone https://github.com/anjaliarasu/bankaccountservices.git	
-  1.2 cd bankaccountservices	
-  1.3 docker build -t gfg/producer .	
+  Steps to set up and build docker image:    	                        
+  1.1 git clone https://github.com/anjaliarasu/bankaccountservices.git     
+  1.2 cd bankaccountservices	        
+  1.3 docker build -t gfg/producer .	      
   
 2.Log Service:	
-  Steps to set up and build docker image:
-  2.1 git clone https://github.com/anjaliarasu/loggerService.git	
-  2.2 cd loggerService	
-  2.3 docker build -t gfg/consumer .	
+  Steps to set up and build docker image:              
+  2.1 git clone https://github.com/anjaliarasu/loggerService.git	              
+  2.2 cd loggerService	    
+  2.3 docker build -t gfg/consumer .	    
 
-3.Compose docker file present inside bankaccountservices	
-  3.1 cd bankaccountservices	
-  3.2 docker compose up -d	
+3.Compose docker file present inside bankaccountservices	        
+  3.1 cd bankaccountservices	    
+  3.2 docker compose up -d	    
 
-4.Now start both the application and start seeing results	
-  4.1 cd bankaccountservices	
-  4.2 mvn clean spring-boot:run	
-  4.3 cd loggingService	
-  4.4 mvn clean spring-boot:run	
+4.Now start both the application and start seeing results	    
+  4.1 cd bankaccountservices	    
+  4.2 mvn clean spring-boot:run	    
+  4.3 cd loggingService	    
+  4.4 mvn clean spring-boot:run	    
 
 To Start with, please create user with unique email id's using. System has been designed that accounts can only be accessed by registered user.
 
