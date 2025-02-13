@@ -52,6 +52,11 @@ Successful account creation: ![image](https://github.com/user-attachments/assets
 Withdraw:	
 ![image](https://github.com/user-attachments/assets/98668153-a344-42ba-b101-1472a7101500)
 
+Screen shots form postgres data:
+![image](https://github.com/user-attachments/assets/832de3b4-9d67-4b35-a5af-f5c07ca7fbc9)
+
+![image](https://github.com/user-attachments/assets/d54d1e40-22f5-443a-8eb6-89028fff3aac)
+
 
 
 
